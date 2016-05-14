@@ -1,4 +1,4 @@
-*probably working yet,  but can't confirm *
+**probably working yet,  but can't confirm**
 tagged.com suffers from multiple vulnerabilities.
 This script exploits CSRF and unprotected password changing bug in tagged.com to hack tagged.com ID
 
