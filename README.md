@@ -15,6 +15,3 @@ __Steps:__
 _more info will be added soon_
 
 
-Script is coded by: Zawad
-https://www.github.com/thezawad
-mail: zawad@coderzwar.com
